@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    --color-text:#6ae675;
+}
+a{
+    color: var(--color-text);
+    text-decoration: none;
+}
