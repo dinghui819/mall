@@ -10,7 +10,8 @@
   "dependencies": {
     "core-js": "^3.4.4",
     "less-loader": "^5.0.0",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-router": "^3.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -27,8 +28,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "plugin:vue/essential"
     ],
     "rules": {},
     "parserOptions": {
@@ -36,7 +36,19 @@
     }
   },
   "browserslist": [
-    "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "```\r npm install\r ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinghui819/mall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinghui819/mall/issues"
+  },
+  "homepage": "https://github.com/dinghui819/mall#readme"
 }
